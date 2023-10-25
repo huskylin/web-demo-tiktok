@@ -1,0 +1,17 @@
+.app-videos {
+  height: 100%;
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.app-videos::-webkit-scrollbar {
+  display: none;
+}
+
+.app-videos {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

@@ -1,0 +1,7 @@
+.mute-btn {
+  position: relative;
+  top: 8dvh;
+  left: 5%;
+  z-index: 1;
+  pointer-events: auto;
+}

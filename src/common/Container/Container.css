@@ -1,0 +1,28 @@
+.page-option-container {
+  width: 100%;
+  position: fixed;
+  top: 3dvh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+}
+
+.page-btn {
+  font-size: 1em;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.active {
+  color: white;
+}
+
+.inactive {
+  color: gray;
+}

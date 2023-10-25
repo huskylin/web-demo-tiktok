@@ -1,0 +1,10 @@
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.app {
+  height: 100dvh;
+  background-color: black;
+  display: grid;
+  place-items: center;
+}
