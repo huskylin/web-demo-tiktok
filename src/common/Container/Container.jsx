@@ -6,7 +6,7 @@ import { setMute } from '../../store/siteSlice';
 import './Container.css';
 
 function Container() {
-  const [page, setPage] = useState('ForYou');
+  const [page, setPage] = useState('Following');
   const dispatch = useDispatch();
 
   useEffect(() => {
